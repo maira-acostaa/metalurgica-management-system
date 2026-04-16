@@ -1,0 +1,46 @@
+/* Solución específica para dropdowns que no muestran texto */
+select, select option {
+  color: #000000 !important;
+  background-color: #ffffff !important;
+  -webkit-text-fill-color: #000000 !important;
+  -webkit-appearance: menulist !important;
+  -moz-appearance: menulist !important;
+  appearance: menulist !important;
+}
+
+/* Forzar estilos específicos para todos los selects */
+select {
+  color: black !important;
+  background: white !important;
+  font-size: 14px !important;
+  font-weight: normal !important;
+}
+
+select option {
+  color: black !important;
+  background: white !important;
+  font-size: 14px !important;
+  font-weight: normal !important;
+}
+
+/* Específico para estados hover y focus */
+select:hover,
+select:focus,
+select:active {
+  color: black !important;
+  background: white !important;
+}
+
+select:hover option,
+select:focus option,
+select:active option {
+  color: black !important;
+  background: white !important;
+}
+
+/* Específico para opciones seleccionadas */
+select option:checked,
+select option:selected {
+  color: black !important;
+  background: #e5f7f0 !important;
+}
